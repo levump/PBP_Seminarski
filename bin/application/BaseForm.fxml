@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.effect.Blend?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+<?language javascript?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.BaseFormController">
+
+   <children>
+      <Button fx:id="buttonExit1" layoutX="725.0" layoutY="524.0" mnemonicParsing="false" onAction="#onMainExit" prefHeight="62.0" prefWidth="61.0" text="PREKID" />
+      <ChoiceBox fx:id="mainDrop1" layoutX="35.0" layoutY="55.0" prefWidth="150.0" />
+      <ChoiceBox fx:id="mainDrop2" layoutX="306.0" layoutY="55.0" prefWidth="150.0" />
+      <ChoiceBox fx:id="mainDrop3" layoutX="596.0" layoutY="55.0" prefWidth="150.0" />
+      <Button fx:id="bSubmit" layoutX="241.0" layoutY="150.0" mnemonicParsing="false" onAction="#actionSubmit" prefHeight="38.0" prefWidth="281.0" text="Pretraga" textAlignment="CENTER">
+         <font>
+            <Font size="18.0" />
+         </font>
+         <effect>
+            <Blend />
+         </effect></Button>
+      <Text disable="true" layoutX="90.0" layoutY="38.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Smer" textAlignment="CENTER">
+         <font>
+            <Font size="18.0" />
+         </font>
+         <effect>
+            <Glow />
+         </effect>
+      </Text>
+      <Text disable="true" layoutX="366.0" layoutY="38.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Rok" textAlignment="CENTER">
+         <font>
+            <Font size="18.0" />
+         </font>
+         <effect>
+            <Glow />
+         </effect>
+      </Text>
+      <Text disable="true" layoutX="637.0" layoutY="38.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Predmet" textAlignment="CENTER">
+         <font>
+            <Font size="18.0" />
+         </font>
+         <effect>
+            <Glow />
+         </effect>
+      </Text>
+      <Text layoutX="24.0" layoutY="576.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Autori: Nikola Jovanovic, Tomislav Jankovic i Aleksandar Predic">
+         <effect>
+            <Glow />
+         </effect>
+      </Text>
+      <ImageView fitHeight="150.0" fitWidth="174.0" layoutX="318.0" layoutY="210.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../Desktop/MTF_170px.png" />
+         </image>
+      </ImageView>
+
+   </children>
+</Pane>
